@@ -1,0 +1,10 @@
+{
+    "main": "src/index.go",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/qiongtubao/latte_go_testServer.git"
+	},
+    "devDependencies": {
+        "latte_go_lib": "github.com/qiongtubao/latte_go_lib"
+    }
+}
