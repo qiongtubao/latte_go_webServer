@@ -13,6 +13,6 @@ func timeHandler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	server := server.CreateServer()
-	server.AddHandle("/time", timeHandler)
+	server.Get("/time", timeHandler)
 	server.Start()
 }
